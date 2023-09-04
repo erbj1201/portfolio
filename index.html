@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">    
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Erika Vestin</title>
+</head>
+<body>
+    <div id="top"></div>
+    <header>
+        <div id="logo-background">
+            <h1><a id="logo" href="#start">Erika Vestin</a></h1>
+                </div>
+        <!-- Meny knapp för att öppna mobilmenyn -->
+      <button id="menuBtn">
+        </button>
+        <!-- navigering -->
+      <nav id="nav-menu">
+            <ul>
+                <li><a href="#top">Start</a></li>
+                <li><a href="#created">Projekt</a></li>
+                <li><a href="#about">Om mig</a></li>
+                <li><a href="#knowledge">Kunskaper</a></li>
+                <li><a id="sec-4" href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="wrap_hero">
+       
+        <picture>
+            <source type="image/jpg" srcset="images/small_hero.jpg" media="(min-width: 250px) and (max-width: 600px)">
+            <source type="image/jpg" srcset="images/medium_hero.jpg" media="(min-width: 601px) and (max-width: 1024px)">
+            <source type="image/jpg" srcset="images/large_hero.jpg" media="(min-width: 1024px)">
+            <img src="/images/medium_hero.jpg" alt="Låt kodandet börja">
+        </picture>
+    </div>
+    <main>
+        <article id="about">
+            <h2>Om mig</h2>
+            <div class="content"><img src="/images/1361.JPG" alt="Erika Vestin">
+            <p>Mitt namn är Erika Vestin och jag är Webbutvecklare. Jag har studerat Webbutvecklingsprogrammet vid Mittuniversitetet och tog examen 2024. Där har jag bland annat studerat JavaScript, TypeScript, CSS, HTML, SCSS, Wordpress.
+                <br><br>Jag brinner för att hjälpa kunder att skapa den perfekta webbplatsen eller webbapplikationen. Jag har flera års erfarenhet av kundkontakt. 
+            <br><br>Jag har barn och man och bor i villa i Timrå. På fritiden tycker jag om att träna, leda gruppträningspass, umgås med familj och vänner och renovera.</p>
+        </div></article>
+<section id="created">
+    <h2>Projekt</h2>
+    <div class="wrapper-article">
+        <article>
+        <h3>Matteo's - Mat på italienskt vis</h3>
+        <a href="https://studenter.miun.se/~erbj1201/writeable/dt173g/projekt_publik/"><img src="/images/matteos.png" alt="Matteo's restaurangs webbplats"></a>
+        <p>En publik webbplats för resturangens kunder där de kan se menyn, läsa om restaurangen och boka bord.</p>
+        <p>Till den publika webbplatsen finns en fristående webbplats där resturangen själv kan sköta ändring av menyer och bokning av bord. Data lagras i en tillhörande REST-webbtjänst.</p>
+    <p class="code"><strong>Webbplatsen är skapad med en automatiserad arbetsprocess, PHP, JavaScript, ECMAScript SCSS, HTML, en REST-webbtjänst med stöd för CRUD som hämtar data från en MYSQL-databas.</strong></p>
+<a class="link" href="https://studenter.miun.se/~erbj1201/writeable/dt173g/projekt_publik/">Till publik webbplats → </a>  
+<a class="link" href="https://studenter.miun.se/~erbj1201/writeable/dt173g/projekt_admin/dashboard.php">Till administrativ webbplats → </a>
+</article>
+<article>
+    <h3>Järvsö hotell & aktiviteter</h3>
+    <a href="https://studenter.miun.se/~erbj1201/writeable/jarvsohotell/"><img src="/images/jarvsohotell&aktiviteter.png" alt="Järvsö hotell & aktiviteters webbplats"></a>
+    <p>En webbplats för företagspresentation för ett hotell som erbjuder olika aktiviteter och boendetyper. Webbplatsen har onlinebokning. Webbplatsen är skapad med hjälp av Wordpress och ett egetskapat tema. </p>
+    <p>Webbplatsen kan administreras av hotellets personal och allt innehåll är dynamiskt.</p>
+<p class="code"><strong>Webbplatsen är skapad med hjälp av en fristående Wordpressinstallation i kombination med ett egetskapat tema. Temat är skapat med HTML, CSS, JavaScript och PHP och är sökmotoroptimerad.</strong></p>
+<a class="link" href="https://studenter.miun.se/~erbj1201/writeable/jarvsohotell/">Till webbplatsen → </a>  
+</article>
+    </div>
+</section>
+<article id="knowledge">
+    <h2>Kunskaper</h2>
+    <div class="img-wrapper">
+    <img src="/images/alexander-grey-eMP4sYPJ9x0-unsplash.jpg" alt="Böcker är kunskap">
+        <ul id="ul-knowledge">
+        <li>- JavaScript</li>
+        <li>- TypeScript</li>
+        <li>- CSS</li>
+        <li>- SCSS</li>
+        <li>- HTML</li>
+        <li>- PHP</li>
+        <li>- Git</li>
+        <li>- Github</li>
+        <li>- Databaser</li>
+        <li>- Wordpress</li>
+    </ul>
+</div>
+</article>
+<article id="contact">
+    <h2>Kontakt</h2>
+    <p><strong>Tveka inte att höra av dig!</strong></p>
+    <div id="contactcard">
+        <img src="/images/1361.JPG" alt="Erika Vestin">
+    <p><strong>Erika Vestin</strong>
+        <br> Webbutvecklare
+        <br><a href="erikabjorklund@outlook.com">erikabjorklund@outlook.com</a>
+    </p>
+</div>
+</article>
+
+    </main>
+    <footer>
+        <p>
+        <em>© 2023 | Erika Vestin</em>
+        </p>
+
+    </footer>
+    <script src="/js/main.js"></script>
+</body>
+</html>
